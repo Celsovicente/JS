@@ -1,0 +1,75 @@
+/* 4 - External */
+
+body{
+    padding-bottom: 500px;
+}
+
+h3{
+    color: green;
+}
+
+p{
+    color: blueviolet;
+}
+
+/* Algum comentario*/
+/* mais um comentario*/
+/* Terceiro comentário */
+
+/* classes */
+.paragraph{
+    background: #000;
+    color: aqua;
+    padding: 5px;
+}
+
+#exclusive-title{
+    background-color: purple;
+    color: yellow;
+    padding: 10px;
+    font-size: 40px;
+}
+
+h2{
+    border-bottom: 4px solid red;
+}
+
+#algum-titulo{
+    border-bottom: 4px solid green;
+}
+
+.titulo{
+    border-bottom: 3px solid blue;
+}
+
+/* Nome de Cores */
+.color-name{
+    color: crimson;
+}
+
+/* Hexadecima */
+.hex{
+    color: #55a398;
+}
+
+.hex-2{
+    color: #ededed;
+}
+
+/* Aprofundamento em hexadecimal */
+.hex-simple{
+    color: #333;
+}
+
+.hex-simple-2{
+    color: #a5f;
+}
+
+/*  rgb */
+.rgb{
+    color: rgb(197, 148, 148);
+}
+
+.rgb-mix{
+    color: rgb(12, 16, 10);
+}

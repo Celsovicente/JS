@@ -1,0 +1,14 @@
+#border-box{
+    margin: 20px;
+    padding: 5px;
+    box-sizing: 20px;
+    border: 4px ridge yellow;
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    outline: slategrey;
+}
+
+.titulo{
+    background-color: green;
+}

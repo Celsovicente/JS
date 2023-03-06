@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="./CSS/Style.css">
+</head>
+<body>
+    <!-- 1 Primeiro Formulário -->
+    <!-- 2 Segundo Formulário -->
+    <h2>Formulário HTML</h2>
+    <form action="register.php" method="get">
+        <div>
+            <label for="">Nome:</label>
+            <input type="text" name="" id="">
+        </div>
+
+        <!-- 3 Atributo name -->
+        <div>
+            <!-- 4 atributo for -->
+            <label for="">Idade:</label>
+            <input type="text" name="age" id="">
+        </div>
+
+        <!-- 6 Select -->
+        <div>
+            <label for="job">Selecione a sua Profissão:</label>
+            <select name="job" id="">
+                <option value="Programador">Programador</option>
+                <option value="Tester">Tester/QA</option>
+                <option value="Devops">Devops</option>
+            </select>
+        </div>
+
+            <!-- 7 Atributo do select -->
+        <div>
+            <label for="contract">Você leu os termos do contrato?</label>
+            <select name="contract" id="">
+                <option value="sim">Sim</option>
+                <option value="nao" selected>Não</option>
+            </select>
+        </div>
+
+        <!-- 8 multiplas seleções -->
+        <div>
+            <label for="itens">Selecione os itens desejados:</label>
+            <select name="itens" id="">
+                <option value="Pera">Pera</option>
+                <option value="Feijao">Feijão</option>
+                <option value="Arroz">Arroz</option>
+                <option value="Milho">Milho</option>
+            </select>
+        </div>
+
+        <!-- 9 textarea -->
+        <div>
+            <label for="comment">Escreva abaixo o que você achou do post:</label>
+            <textarea name="comment" ></textarea>
+        </div>
+
+        <!-- 10 fieldset e legend -->
+        <fieldset>
+            <legend>Preencha as suas informações:</legend>
+            <label for="firstname">Nome:</label>
+            <input type="text" name="firstname" id="">
+            <label for="lastname">Sobrenome:</label>
+            <input type="text" name="lastname" id="">
+        </fieldset>
+
+        <!-- 11 Datalist -->
+        <div>
+            <label for="flavor">Escolha o sabor:</label>
+            <input type="text" list="flavor">
+
+        <datalist id="flavors">
+            <option value="Cereja"></option>
+            <option value="Morango"></option>
+            <option value="Abacaxi"></option>
+            <option value="Chocolate"></option>  
+        </datalist>
+        </div>
+
+        <!-- 12 senha -->
+        <div>
+            <label for="password">Digite a sua senha:</label>
+            <input type="password" name="password" id="">
+        </div>
+
+        <!-- 14 radio button -->
+        <div class="radio">
+            <label for="car_model">Escolha o modelo do seu carro:</label>
+            <input type="radio" value="bmw" name="car_model" id="">
+            <label for="bmw">BMW</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="ferrari" name="car_model" id="">
+            <label for="bmw">Ferrari</label>
+        </div>
+
+        <div class="radio">
+            <input type="radio" value="renault" name="car_model" id="">
+            <label for="bmw">Renault</label>
+        </div>
+
+        <!-- 13 Reset -->
+            <input type="reset" value="Limpar">
+        <!-- 5 Envio de form -->
+        <input type="submit" value="Enviar">
+
+
+    </form>
+</body>
+</html>
